@@ -31,7 +31,7 @@ export function Tarefa({descricaoTarefa, onSelected, onRemove}: Props){
                 </View>
             </TouchableOpacity>
             <View style={styles.textoDescricaoContainer}>
-                <Text style={[styles.textoDescricao, descricaoTarefa.status && styles.textoDescricaoMarcado]} numberOfLines={2} ellipsizeMode="tail">{descricaoTarefa.descricao} {descricaoTarefa.key}</Text>
+                <Text style={[styles.textoDescricao, descricaoTarefa.status && styles.textoDescricaoMarcado]} numberOfLines={2} ellipsizeMode="tail">{descricaoTarefa.descricao}</Text>
             </View>
             <TouchableOpacity style={styles.removerContainer} onPress={onRemove}>
                 <Image

@@ -67,7 +67,7 @@ export const styles = StyleSheet.create({
     },
     contadorContainer:{
         backgroundColor: '#333333',
-        borderRadius: '40%',
+        borderRadius: 15,
         marginLeft: 12,
     },
     labelContador:{

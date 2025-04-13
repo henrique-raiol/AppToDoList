@@ -30,7 +30,7 @@ export default function Home(){
             Alert.alert('Ops!', 'Você precisa descrever sua tarefa.');
             return;
         }
-        const listaKeys = listaTarefas.map( item => parseInt(item.key, 10)).sort();
+        const listaKeys = listaTarefas.map( item => parseInt(item.key, 10)).sort( (a,b) => a - b);
         const ultimaKey = listaKeys.length > 0 ? listaKeys[listaKeys.length - 1] : 0;
         setListaTarefas(prevState => [...prevState, {
             key: `${ultimaKey + 1}`,

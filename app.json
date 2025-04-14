@@ -11,6 +11,9 @@
       "eas": {
         "projectId": "40091d0b-b454-49a0-9911-af4c54d2a95b"
       }
+    },
+    "android": {
+      "package": "com.phrs.appToDoList"
     }
   }
 }

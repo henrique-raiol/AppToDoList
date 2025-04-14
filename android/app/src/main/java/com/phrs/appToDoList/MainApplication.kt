@@ -1,4 +1,4 @@
-package com.apptodolist
+package com.phrs.appToDoList
 
 import android.app.Application
 import android.content.res.Configuration
